@@ -13,7 +13,7 @@ include files:
 Instantiate the forest:
 
 ```javascript
- new Forest(path of the 3D model,scene, radius, forestPosition, number of tree , minScale , maxScale, minAnimationDuration, maxAnimationDuration, ground, debug);
+ new Forest(pathOfThe3DModel,scene, radius, forestPosition, numberOfTree , minScale , maxScale, minAnimationDuration, maxAnimationDuration, ground, debug);
  ```
 
 Example:
@@ -22,4 +22,6 @@ Example:
  new Forest("../object-lib/threeJs-forest-generator/3DModels/tree.json",scene, 200, forestPosition, 50, 2, 5, 4, 6, ground, debug);
  ```
 
-**Note** this repo contain some 3D Model made with Blender
+**Note** This repo contain some 3D Model made with Blender
+
+**Warning** This library is not yet very evolved
